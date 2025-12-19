@@ -1,4 +1,6 @@
 package com.example.questapi_048.uicontroller.route
 
-class DestinasiNavigasi {
+interface DestinasiNavigasi {
+    val route: String
+    val titleRes: Int
 }
