@@ -188,7 +188,7 @@ private fun DeleteConfirmationDialog(
     AlertDialog(
         onDismissRequest = { /* Do nothing */ },
         title = { Text("Delete Data") },
-        text = { Text("Apakah anda yakin ingin menghapus data ini?") },
+        text = { Text("Yakin ingin menghapus data ini?") },
         modifier = modifier,
         dismissButton = {
             TextButton(onClick = onDeleteCancel) {
