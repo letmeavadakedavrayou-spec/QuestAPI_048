@@ -13,3 +13,7 @@ val Pink40 = Color(0xFF7D5260)
 val BiruPrimary = Color(0xFF1E88E5)
 val BiruSecondary = Color(0xFF64B5F6)
 val BiruGelap = Color(0xFF0D47A1)
+
+val BiruMudaBanget = Color(0xFFD6E4FF)
+
+val BiruTeksGelap = Color(0xFF001D36)
