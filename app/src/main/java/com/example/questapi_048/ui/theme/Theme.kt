@@ -20,7 +20,9 @@ private val DarkColorScheme = darkColorScheme(
 private val LightColorScheme = lightColorScheme(
     primary = BiruPrimary,
     secondary = BiruSecondary,
-    tertiary = BiruGelap
+    tertiary = BiruGelap,
+    primaryContainer = BiruMudaBanget,
+    onPrimaryContainer = BiruTeksGelap
 
     /* Other default colors to override
     background = Color(0xFFFFFBFE),
@@ -37,7 +39,7 @@ private val LightColorScheme = lightColorScheme(
 fun QuestAPI_048Theme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     // Dynamic color is available on Android 12+
-    dynamicColor: Boolean = true,
+    dynamicColor: Boolean = false,
     content: @Composable () -> Unit
 ) {
     val colorScheme = when {
