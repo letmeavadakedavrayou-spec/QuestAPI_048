@@ -144,7 +144,7 @@ fun ItemDetailSiswa(
         )
     ) {
         Column(
-            modifier = Modifier.padding(16.dp),
+            modifier = Modifier.padding(14.dp),
             verticalArrangement = Arrangement.spacedBy(16.dp)
         ) {
             ComponentDetailSiswa(judul = "ID", isinya = siswa.id.toString())
