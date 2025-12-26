@@ -71,7 +71,6 @@ fun DetailScreen(
     ) { innerPadding ->
         BodyDetailSiswa(
             detailUiState = uiState,
-            // Fungsi untuk reload data jika error (retry)
             retryAction = { viewModel.getSatuSiswa() },
             modifier = Modifier.padding(innerPadding),
             onDeleteClick = {
@@ -124,7 +123,6 @@ fun BodyDetailSiswa(
             }
         }
         is DetailUiState.Error -> {
-            // Memanggil OnError dari HalamanHome.kt
             OnError(
                 retryAction = retryAction,
                 modifier = modifier.fillMaxSize()
