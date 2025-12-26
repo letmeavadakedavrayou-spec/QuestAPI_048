@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Data MySQL</string>
+    <string name="app_name">Daftar Teman</string>
     <string name="entry_siswa">Tambah Siswa</string>
     <string name="back">back</string>
     <string name="nama">Nama Siswa*</string>
