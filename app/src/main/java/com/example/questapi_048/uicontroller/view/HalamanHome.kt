@@ -65,7 +65,7 @@ fun HomeScreen(
             FloatingActionButton(
                 onClick = navigateToItemEntry,
                 shape = MaterialTheme.shapes.medium,
-                modifier = Modifier.padding(18.dp)
+                modifier = Modifier.padding(20.dp)
             ) {
                 Icon(imageVector = Icons.Default.Add, contentDescription = "Add Siswa")
             }
