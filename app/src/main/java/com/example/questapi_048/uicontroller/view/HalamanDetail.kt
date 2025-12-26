@@ -172,7 +172,7 @@ fun ComponentDetailSiswa(
         )
         Text(
             text = isinya,
-            style = MaterialTheme.typography.bodyLarge
+            style = MaterialTheme.typography.bodyMedium
         )
     }
 }
